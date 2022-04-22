@@ -65,7 +65,15 @@ body {
   cursor: pointer;
   display: none;
 }
+#bgMain {
+  width: 100%;
 
+  margin-bottom: 1.9em;
+  background-repeat: no-repeat;
+  background: url();
+  background-size: cover;
+  background-position: center;
+}
 /*PANTALLAS MEDIANAS-CHICAS*/
 
 @media (max-width: 768px) {
