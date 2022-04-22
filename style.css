@@ -32,12 +32,17 @@ body {
   color: whitesmoke;
   text-decoration: none;
 }
+.nav-link-1 {
+  color: black;
+  text-decoration: none;
+}
 .logo {
   color: rgb(48, 12, 12);
   font-size: 35px;
   font-weight: bold;
   padding: 0 40px;
   line-height: 90px;
+  text-decoration: none;
 }
 .nav-menu {
   display: flex;
@@ -80,6 +85,30 @@ body {
   background-size: cover;
   background-position: center;
 } */
+/* MAIN */
+/* TARJETAS */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: inline-block;
+  margin: auto;
+}
+.container.tarjeta {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0.2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+.container.tarjeta:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
 /*PANTALLAS MEDIANAS-CHICAS*/
 
 @media (max-width: 768px) {
@@ -99,6 +128,7 @@ body {
     align-items: center;
     margin-right: 20px;
     position: absolute;
+    background-color: rgb(167, 164, 164);
     left: 0;
     top: 100px;
     width: 100%;
@@ -110,7 +140,11 @@ body {
     transition: left 0.5s;
   }
   .nav-menu-item {
-    line-height: 150px;
+    line-height: 100px;
+  }
+  .nav-link,
+  .nav-link-1 {
+    color: whitesmoke;
   }
 
   .nav-menu-link:hover,
