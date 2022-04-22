@@ -62,7 +62,7 @@ body {
   transition: 0.8s;
 }
 .nav-toggle {
-  color: whitesmoke;
+  color: rgb(15, 15, 15);
   background: none;
   border: none;
   font-size: 30px;
@@ -110,7 +110,7 @@ body {
     transition: left 0.5s;
   }
   .nav-menu-item {
-    line-height: 60px;
+    line-height: 150px;
   }
 
   .nav-menu-link:hover,
